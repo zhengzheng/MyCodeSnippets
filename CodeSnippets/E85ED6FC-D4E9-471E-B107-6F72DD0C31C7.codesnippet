@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>autolayout</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSDictionary&lt;NSString *, id&gt; *views = @{ @"&lt;#view name#&gt;": &lt;#view reference#&gt; };
+NSDictionary&lt;NSString *, NSNumber *&gt; *metrics = @{ @"&lt;#metric name#&gt;": &lt;#number#&gt; };
+NSMutableArray&lt;NSLayoutConstraint *&gt; *constraints = [NSMutableArray&lt;NSLayoutConstraint *&gt; array];
+
+[constraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"&lt;#visualFormat#&gt;" options:0 metrics:metrics views:views]];
+[constraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"&lt;#visualFormat#&gt;" options:0 metrics:metrics views:views]];
+[NSLayoutConstraint activateConstraints:constraints];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E85ED6FC-D4E9-471E-B107-6F72DD0C31C7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>autolayout</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
